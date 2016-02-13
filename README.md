@@ -15,8 +15,29 @@ the square brackets (for multiple-choice questions).
 
 What does it mean for an HTML tag to be "semantic"? Give an example of a short snippet of HTML written using semantic tags and non-semantic tags.
 
-```text
-Your answer here.
+```
+A semantic tag is one which relates to its content in plain English. So a <footer> tag denotes a footer, like this:
+
+<footer>
+    <p>I can be reached at:
+      <ul>
+        <li><a href="mailto:jeffreyeaton.dc@gmail.com">jeffreyeaton.dc@gmail.com</a></li>
+        <li>(917) 846-3997</li>
+      </ul>
+    </p>
+</footer>
+
+The same thing could be done with a non-semantic tag but the role/placement of the section would not be immediately apparent.
+
+<div>
+    <p>I can be reached at:
+      <ul>
+        <li><a href="mailto:jeffreyeaton.dc@gmail.com">jeffreyeaton.dc@gmail.com</a></li>
+        <li>(917) 846-3997</li>
+      </ul>
+    </p>
+</div
+
 ```
 
 ### Question #2
@@ -27,16 +48,16 @@ What is the purpose of the `alt` attribute? e.g:
 <img src='https://jesse.sh/img/me.jpg' alt='Jesse Shawl'/>
 ```
 
-```text
-Your answer here.
+```
+An alt attribute provides a human-readable description of an image. The main reason this is essential is so the visually impaired can make sense of images, but it's also handy if images cannot be displayed for any other reason.
 ```
 
 ### Question #3
 
 What is the purpose of the `<head></head>` tag in HTML?
 
-```text
-Your answer here.
+```
+The <head> tag contains parts of a webpage that are not part of the content but help to describe (e.g., <title>, <meta>) or style the content.  
 ```
 
 ## CSS
@@ -50,11 +71,11 @@ The choices are `border`, `outline`, `padding`, and `margin`. You will leave two
 Your Answer:
 
 ```text
-___: Defines the distance between an element's border and adjacent elements' borders.
-___: Inserts a "wall" around an element.
-___: Defines the distance between an element's content and its border.
+margin : Defines the distance between an element's border and adjacent elements' borders.
+border: Inserts a "wall" around an element.
+padding : Defines the distance between an element's content and its border.
 ___: Defines the width of an element.
-___: Overlays a "wall" on top of an element.
+outline: Overlays a "wall" on top of an element.
 ___: Defines the distance between the center of an element and the center of the adjacent element.
 ```
 
@@ -64,7 +85,7 @@ What does the following selector do?  `ul.dropdown > li`?
 
 Select 1:
 ```
-[] Selects all li's which are directly inside a ul of class dropdown (children)
+[X] Selects all li's which are directly inside a ul of class dropdown (children)
 [] Selects all li's which are anywhere inside a ul of class dropdown (any descendant)
 [] Selects all ul's of class dropdown, as well as the children elements that are li's
 [] Selects all ul's of class dropdown, only if their children are exclusively li's
@@ -75,9 +96,9 @@ Select 1:
 Identify the three places CSS can go, and rank them in terms of specificity:
 
 ```text
-1.
-2.
-3.
+1.inline (affects the element)
+2.in the <head> (affects the page)
+3.in an external stylesheet (affects the whole website (presuming every page links to it))
 ```
 
 ## Git
@@ -89,7 +110,7 @@ Which of the following represents a correct workflow for submitting a PR on a no
 
 Select 1:
 ```
-[] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
+[X] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] fork on github; git clone <ga_dc_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] git clone <ga_dc_url>; git branch <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git pull; create pull request
@@ -100,7 +121,7 @@ Select 1:
 What is the difference between a fork and a clone?
 
 ```text
-Your answer here.
+A fork makes a copy of a repository in your personal GiHub account; a clone makes a copy of a repository on your local computer.
 ```
 
 ### Question 9
@@ -108,5 +129,5 @@ Your answer here.
 How is `git pull` related to `git fetch`?
 
 ```text
-Your answer here.
+`Git fetch` will copy updated files from the remote repository to your local machine, but will place them in a new remote branch. This is useful for reviewing updates. `Git pull` will fetch updated files from the remote repository AND execute `git merge` with your local, working branch. 
 ```
