@@ -110,7 +110,7 @@ Which of the following represents a correct workflow for submitting a PR on a no
 
 Select 1:
 ```
-[] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
+[X] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] fork on github; git clone <ga_dc_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] git clone <ga_dc_url>; git branch <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git pull; create pull request
@@ -121,7 +121,7 @@ Select 1:
 What is the difference between a fork and a clone?
 
 ```text
-Your answer here.
+A fork makes a copy of a repository in your personal GiHub account; a clone makes a copy of a repository on your local computer.
 ```
 
 ### Question 9
@@ -129,5 +129,5 @@ Your answer here.
 How is `git pull` related to `git fetch`?
 
 ```text
-Your answer here.
+`Git fetch` will copy updated files from the remote repository to your local machine, but will place them in a new remote branch. This is useful for reviewing updates. `Git pull` will fetch updated files from the remote repository AND execute `git merge` with your local, working branch. 
 ```
