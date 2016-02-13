@@ -15,8 +15,29 @@ the square brackets (for multiple-choice questions).
 
 What does it mean for an HTML tag to be "semantic"? Give an example of a short snippet of HTML written using semantic tags and non-semantic tags.
 
-```text
-Your answer here.
+```
+A semantic tag is one which relates to its content in plain English. So a <footer> tag denotes a footer, like this:
+
+<footer>
+    <p>I can be reached at:
+      <ul>
+        <li><a href="mailto:jeffreyeaton.dc@gmail.com">jeffreyeaton.dc@gmail.com</a></li>
+        <li>(917) 846-3997</li>
+      </ul>
+    </p>
+</footer>
+
+The same thing could be done with a non-semantic tag but the role/placement of the section would not be immediately apparent.
+
+<div>
+    <p>I can be reached at:
+      <ul>
+        <li><a href="mailto:jeffreyeaton.dc@gmail.com">jeffreyeaton.dc@gmail.com</a></li>
+        <li>(917) 846-3997</li>
+      </ul>
+    </p>
+</div
+
 ```
 
 ### Question #2
@@ -27,16 +48,16 @@ What is the purpose of the `alt` attribute? e.g:
 <img src='https://jesse.sh/img/me.jpg' alt='Jesse Shawl'/>
 ```
 
-```text
-Your answer here.
+```
+An alt attribute provides a human-readable description of an image. The main reason this is essential is so the visually impaired can make sense of images, but it's also handy if images cannot be displayed for any other reason.
 ```
 
 ### Question #3
 
 What is the purpose of the `<head></head>` tag in HTML?
 
-```text
-Your answer here.
+```
+The <head> tag contains parts of a webpage that are not part of the content but help to describe (e.g., <title>, <meta>) or style the content.  
 ```
 
 ## CSS
