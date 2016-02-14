@@ -16,7 +16,11 @@ the square brackets (for multiple-choice questions).
 What does it mean for an HTML tag to be "semantic"? Give an example of a short snippet of HTML written using semantic tags and non-semantic tags.
 
 ```text
-Your answer here.
+"Semantic" is defined as "the function of words beyond their dictionary definition." So the HTML tag itself (e.g. header, p,) has a specific function within HTML beyond its dictionary definition.
+
+HTML Semantic Tags: <div class = "biography"></div> (you could even shorten this to bio)
+
+HTML Non-Semantic Tags: <div class = "blue"></div>
 ```
 
 ### Question #2
@@ -28,7 +32,7 @@ What is the purpose of the `alt` attribute? e.g:
 ```
 
 ```text
-Your answer here.
+Websites are not just seen with the eyes. They are also read with text-readers. So if someone who is blind is visiting your website, the text reader would say "Jesse Shawl" instead of reciting the image link. Hearing "Jesse Shawl" would make more sense than hearing a URL. Also, alt tags can be useful for SEO purposes.
 ```
 
 ### Question #3
@@ -36,7 +40,7 @@ Your answer here.
 What is the purpose of the `<head></head>` tag in HTML?
 
 ```text
-Your answer here.
+The head is where markups that are not "seen" on the page, but still affect the page, go. For example, you link you CSS and JS files to your HTML file in the <head></head>.
 ```
 
 ## CSS
