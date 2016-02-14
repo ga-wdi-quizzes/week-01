@@ -15,11 +15,11 @@ the square brackets (for multiple-choice questions).
 
 What does it mean for an HTML tag to be "semantic"? Give an example of a short snippet of HTML written using semantic tags and non-semantic tags.
 
-Semantic tags are HTML tags whose names clearly describe their content.  These tags help the developer separate content structure from styling.  For example, the "<footer>" tag defines footer content:
+Semantic tags are HTML tags whose names clearly describe their content.  These tags help the developer separate content structure from styling.  For example, the <footer> tag defines footer content:
 
 	<footer>This content goes in the footer.</footer>
 
-Non-semantic tags do not describe their content and sometimes focus on content styling.  An example is the <b></b> tag, which is used to create the bold text:
+Non-semantic tags do not describe their content and sometimes focus on content styling.  An example is the <b> tag, which is used to create the bold text:
 
 	<footer><b>This footer content is now bold.</b></footer>
 
@@ -37,7 +37,7 @@ The 'alt' attribute provides alternative text in the event the associated image 
 
 What is the purpose of the `<head></head>` tag in HTML?
 
-The <head></head> tag is used to define page content that is not displayed, necessarily, but used to provide information about the document (metadata, for example).  It should be placed before the <body></body> tag and will contain other tags such as <title></title>; <link></link> to reference an external stylesheet (or <style></style> for internal styling); and/or <script></script> to call javascript functions, for example.
+The <head> tag is used to define page content that is not displayed, necessarily, but used to provide information about the document (metadata, for example).  It should be placed before the <body> tag and will contain other tags such as <title>; <link> to reference an external stylesheet (or <style> for internal styling); and/or <script> to call javascript functions, for example.
 
 ## CSS
 
