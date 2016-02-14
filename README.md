@@ -16,7 +16,11 @@ the square brackets (for multiple-choice questions).
 What does it mean for an HTML tag to be "semantic"? Give an example of a short snippet of HTML written using semantic tags and non-semantic tags.
 
 ```text
-The term "semantics" refers to the study of meaning and implication rather than just the face-value of a particular word or snippet of speech/text. In HTML, semantics are important to consider when writing your code because you ideally want other folks to be able to decipher it on a deeper level. The example I found that works best for me is the tag <i> which would denote "italics" i.e the slanted version of a particular font that tells us "there is something special about this text." While it would still WORK the fact is it doesn't tell us WHY the text is separated from the rest - it tells us nothing about the content. These days we prefer the <em> tag which stands for "emphasis" if we are using italics to, ya know, EMPHASIZE something rather than say "cite" something like  a section of a book. examples of non-semantic HTML include tags like <div> with no class specification - they don't explain why a section is divided off, only that it is. A more specific, semantic version might be <div class= "header"> or <div id="nav">.
+Semantics in HTML refers to a word in a tag that is descriptive of the function of the tag as opposed to a description that could be true, but vague.
+<footer> This goes in the footer </footer> = semantic
+<img src='blahblah.jpg' alt='description of image'/> = also semantic. Image is = picture goes here.
+
+<i>This is some random stuff in italics but why? What is it?</i> = not semantic.
 ```
 
 ### Question #2
@@ -50,12 +54,12 @@ The choices are `border`, `outline`, `padding`, and `margin`. You will leave two
 Your Answer:
 
 ```text
-_Margin__: Defines the distance between an element's border and adjacent elements' borders.
-__Outline_: Inserts a "wall" around an element.
-_Padding__: Defines the distance between an element's content and its border.
+Margin: Defines the distance between an element's border and adjacent elements' borders.
+Border: Inserts a "wall" around an element.
+Padding: Defines the distance between an element's content and its border.
 __: Defines the width of an element.
-__: Overlays a "wall" on top of an element.
-_Border_: Defines the distance between the center of an element and the center of the adjacent element.
+Outline: Overlays a "wall" on top of an element. (I found this sentence confusing. Top seems to denote only the top, rather than "over the element as a whole")
+__: Defines the distance between the center of an element and the center of the adjacent element.
 ```
 
 ### Question #5
@@ -108,6 +112,6 @@ You are "forking" a copy of the master to your github repository only. "cloning"
 How is `git pull` related to `git fetch`?
 
 ```text
-"git fetch" compares changes between a branch and a master.
-"git pull" will execute a "git fetch" and them "merge" all changes from the proposal-branch.
+"git fetch" "FETCHES" any changes that have been made in the REMOTE repo that you DO NOT have in your LOCAL repo.
+"git pull" will execute a "git fetch" and then "merge" all changes from the remote repo to whatever branch you are currently in on your local.
 ```
