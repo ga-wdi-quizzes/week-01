@@ -16,7 +16,13 @@ the square brackets (for multiple-choice questions).
 What does it mean for an HTML tag to be "semantic"? Give an example of a short snippet of HTML written using semantic tags and non-semantic tags.
 
 ```text
-Your answer here.
+An HTML tag is semantic when it describes the purpose of the words in that element.
+
+<header>This tag is a semantic tag.</header>
+<p>This tag is also a semantic tag. The header and paragraph tags describe the purpose of the text
+within them.</p>
+<div>This is a non-semantic tag. The text within this tag could be used for anything. It is not
+specified by the tag.</div>
 ```
 
 ### Question #2
