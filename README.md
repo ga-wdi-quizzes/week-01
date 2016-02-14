@@ -15,7 +15,7 @@ the square brackets (for multiple-choice questions).
 
 What does it mean for an HTML tag to be "semantic"? Give an example of a short snippet of HTML written using semantic tags and non-semantic tags.
 
-Semantic tags are HTML tags whose names clearly describe their content.  These tags help the developer separate content structure from styling.  For example, the <footer></footer> tag defines footer content:
+Semantic tags are HTML tags whose names clearly describe their content.  These tags help the developer separate content structure from styling.  For example, the "<footer>" tag defines footer content:
 
 	<footer>This content goes in the footer.</footer>
 
