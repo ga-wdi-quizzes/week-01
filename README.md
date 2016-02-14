@@ -16,13 +16,15 @@ the square brackets (for multiple-choice questions).
 What does it mean for an HTML tag to be "semantic"? Give an example of a short snippet of HTML written using semantic tags and non-semantic tags.
 
 ```text
-An HTML tag is semantic when it describes the purpose of the words in that element.
+An HTML tag is semantic when it describes the purpose of the words/objects in that element.
 
 <header>This tag is a semantic tag.</header>
 <p>This tag is also a semantic tag. The header and paragraph tags describe the purpose of the text
-within them.</p>
+within them. This makes it easier for programmers because they can easily see what to expect from
+that particular part of the site.</p>
 <div>This is a non-semantic tag. The text within this tag could be used for anything. It is not
-specified by the tag.</div>
+specified by the tag. Another non-semantic tag is <span>the span tag, which again, does not have a specified use.</span> These tags are more difficult to read at a glance, but they can help expand the ways the
+text can be modified when there isn't an existing semantictag already.</div>
 ```
 
 ### Question #2
@@ -36,7 +38,9 @@ What is the purpose of the `alt` attribute? e.g:
 ```text
 The alt attribute gives alternate text for an image if the image cannot be displayed or if
 the user is using a screen reader. It should always be included with an image in order to
-increase the accessibility of the page.
+increase the accessibility of the page. The alt text should be clear and specific.
+Bad alt text: An image
+Good alt text: Dog playing with a ball
 ```
 
 ### Question #3
@@ -115,7 +119,7 @@ to send changes back to the original source project.
 
 A clone makes a copy of the project onto your local computer. When cloning from a
 repository that is not your own, you will not be able to send changes back to the
-"upstream" repository.
+original "upstream" repository.
 
 ```
 
@@ -124,7 +128,7 @@ repository that is not your own, you will not be able to send changes back to th
 How is `git pull` related to `git fetch`?
 
 ```text
-Git pull fetches and merges the updates from the remote repository with the local 
+Git pull fetches and merges the updates from the remote repository with the local
 repository. Git fetch will download the changes made from the remote but will
 not automatically merge.
 ```
