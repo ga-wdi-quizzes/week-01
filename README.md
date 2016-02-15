@@ -68,7 +68,7 @@ What does the following selector do?  `ul.dropdown > li`?
 
 Select 1:
 ```
-[] Selects all li's which are directly inside a ul of class dropdown (children)
+[x] Selects all li's which are directly inside a ul of class dropdown (children)
 [] Selects all li's which are anywhere inside a ul of class dropdown (any descendant)
 [] Selects all ul's of class dropdown, as well as the children elements that are li's
 [] Selects all ul's of class dropdown, only if their children are exclusively li's
@@ -79,9 +79,9 @@ Select 1:
 Identify the three places CSS can go, and rank them in terms of specificity:
 
 ```text
-1.
-2.
-3.
+1.inline
+2.internal
+3.external
 ```
 
 ## Git
@@ -93,7 +93,7 @@ Which of the following represents a correct workflow for submitting a PR on a no
 
 Select 1:
 ```
-[] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
+[x] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] fork on github; git clone <ga_dc_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] git clone <ga_dc_url>; git branch <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git pull; create pull request
@@ -104,7 +104,7 @@ Select 1:
 What is the difference between a fork and a clone?
 
 ```text
-Your answer here.
+You need to fork to do a pull request and have your changes submitted/merged into the original. You must then clone it to your local computer to make changes. You can clone any repository and make changes, but you cannot submit a pull request.
 ```
 
 ### Question 9
@@ -113,4 +113,5 @@ How is `git pull` related to `git fetch`?
 
 ```text
 Your answer here.
+git fetch allow you to gather any commits from remote repository and store them on your local repo on the current branch. You must then run git merge to merge any changes. Git pull is like running git fetch and git merge at the same time. Git pull does not let you review commit before they are merged and thus may cause conflicts. 
 ```
