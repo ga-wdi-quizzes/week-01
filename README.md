@@ -16,7 +16,8 @@ the square brackets (for multiple-choice questions).
 What does it mean for an HTML tag to be "semantic"? Give an example of a short snippet of HTML written using semantic tags and non-semantic tags.
 
 ```text
-Your answer here.
+Semantic means it defines its meaning to the developer and browser, such as <header>, <article>, <footer>, <img>, <table>.
+Non-semantic does not give a clue of the meaning such as <div> and <span>.
 ```
 
 ### Question #2
@@ -28,7 +29,9 @@ What is the purpose of the `alt` attribute? e.g:
 ```
 
 ```text
-Your answer here.
+The alt attribute is for alternative text to be used when HTML elements can't be
+displayed. They are also used for screen readers for the blind or others who
+'listen' to webpages.
 ```
 
 ### Question #3
@@ -36,7 +39,8 @@ Your answer here.
 What is the purpose of the `<head></head>` tag in HTML?
 
 ```text
-Your answer here.
+Stuff in between the <head> tags are used to give information about the document.
+Such as the <title> of the page, <link> so you can link to other pages like your .css file, and metadata <meta> to give information like the author, keywords, and description. None of this information is displayed directly on the page.  
 ```
 
 ## CSS
@@ -50,11 +54,11 @@ The choices are `border`, `outline`, `padding`, and `margin`. You will leave two
 Your Answer:
 
 ```text
-___: Defines the distance between an element's border and adjacent elements' borders.
-___: Inserts a "wall" around an element.
-___: Defines the distance between an element's content and its border.
+_margin__: Defines the distance between an element's border and adjacent elements' borders.
+__border_: Inserts a "wall" around an element.
+__padding_: Defines the distance between an element's content and its border.
 ___: Defines the width of an element.
-___: Overlays a "wall" on top of an element.
+_outline__: Overlays a "wall" on top of an element.
 ___: Defines the distance between the center of an element and the center of the adjacent element.
 ```
 
