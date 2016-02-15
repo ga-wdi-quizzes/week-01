@@ -16,7 +16,14 @@ the square brackets (for multiple-choice questions).
 What does it mean for an HTML tag to be "semantic"? Give an example of a short snippet of HTML written using semantic tags and non-semantic tags.
 
 ```text
-Your answer here.
+When an element is semantic it gives structure to webpage so that the browser and the developer understands it purpose.
+Example of non-semantic element: <div>
+<div>
+<p> There is a full moon</p>
+</div>
+Example of semantic element :<img>
+<img src='http://science.nasa.gov/media/medialibrary/2009/01/08/08jan_bigmoon2009_resources/Ron-Hodges1.jpg' alt='Full Moon'/>
+
 ```
 
 ### Question #2
@@ -28,7 +35,7 @@ What is the purpose of the `alt` attribute? e.g:
 ```
 
 ```text
-Your answer here.
+alt is used to show alternative image/information if the image in img src can not be seen.
 ```
 
 ### Question #3
@@ -36,7 +43,7 @@ Your answer here.
 What is the purpose of the `<head></head>` tag in HTML?
 
 ```text
-Your answer here.
+the purpose of the head tag is where data about the HTML document is held.
 ```
 
 ## CSS
@@ -50,21 +57,26 @@ The choices are `border`, `outline`, `padding`, and `margin`. You will leave two
 Your Answer:
 
 ```text
-___: Defines the distance between an element's border and adjacent elements' borders.
+margin: Defines the distance between an element's      border and adjacent elements' borders.
+
 ___: Inserts a "wall" around an element.
-___: Defines the distance between an element's content and its border.
-___: Defines the width of an element.
-___: Overlays a "wall" on top of an element.
+
+padding: Defines the distance between an element's content and its border.
+
+_border__: Defines the width of an element.
+
+outline: Overlays a "wall" on top of an element.
+
 ___: Defines the distance between the center of an element and the center of the adjacent element.
 ```
 
 ### Question #5
 
-What does the following selector do?  `ul.dropdown > li`?
+What does the following selector do?  `?
 
 Select 1:
 ```
-[] Selects all li's which are directly inside a ul of class dropdown (children)
+[x] Selects all li's which are directly inside a ul of class dropdown (children)
 [] Selects all li's which are anywhere inside a ul of class dropdown (any descendant)
 [] Selects all ul's of class dropdown, as well as the children elements that are li's
 [] Selects all ul's of class dropdown, only if their children are exclusively li's
@@ -75,9 +87,9 @@ Select 1:
 Identify the three places CSS can go, and rank them in terms of specificity:
 
 ```text
-1.
-2.
-3.
+1.inline styles
+2.IDs
+3.Classes
 ```
 
 ## Git
@@ -89,7 +101,7 @@ Which of the following represents a correct workflow for submitting a PR on a no
 
 Select 1:
 ```
-[] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
+[x] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] fork on github; git clone <ga_dc_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] git clone <ga_dc_url>; git branch <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git pull; create pull request
@@ -100,7 +112,7 @@ Select 1:
 What is the difference between a fork and a clone?
 
 ```text
-Your answer here.
+Fork is when you copy a repository on to your github account . cloning is copying repository on to your computer
 ```
 
 ### Question 9
@@ -108,5 +120,9 @@ Your answer here.
 How is `git pull` related to `git fetch`?
 
 ```text
-Your answer here.
+they are used to download new data from remote repository.
+git fetch downloads new data from remote repository but does not update data into working files.
+git pull is used to update head branch with updated changes made from the remote server
+
+
 ```
