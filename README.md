@@ -50,11 +50,11 @@ The choices are `border`, `outline`, `padding`, and `margin`. You will leave two
 Your Answer:
 
 ```text
-___: Defines the distance between an element's border and adjacent elements' borders.
-___: Inserts a "wall" around an element.
-___: Defines the distance between an element's content and its border.
+_margin__: Defines the distance between an element's border and adjacent elements' borders.
+_border_: Inserts a "wall" around an element.
+_padding__: Defines the distance between an element's content and its border.
 ___: Defines the width of an element.
-___: Overlays a "wall" on top of an element.
+_outline__: Overlays a "wall" on top of an element.
 ___: Defines the distance between the center of an element and the center of the adjacent element.
 ```
 
@@ -89,7 +89,7 @@ Which of the following represents a correct workflow for submitting a PR on a no
 
 Select 1:
 ```
-[] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
+[X] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] fork on github; git clone <ga_dc_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] git clone <ga_dc_url>; git branch <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git pull; create pull request
