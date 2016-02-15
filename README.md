@@ -15,8 +15,23 @@ the square brackets (for multiple-choice questions).
 
 What does it mean for an HTML tag to be "semantic"? Give an example of a short snippet of HTML written using semantic tags and non-semantic tags.
 
-```text
-Your answer here.
+``If an HTML tag is "semantic", it clearly describes the meaning of whatever the tag is naming.
+examples:
+semantic: <header></header>, <nav></nav>
+<footer>
+      <a href='#'>Facebook</a> |
+      <a href='#'>Twitter</a> |
+      <a href='#'>Instagram</a> |
+      <a href='#'>LinkedIn</a>
+    </footer>
+non-semntic: <div></div> and <span></span>
+<div>
+   <ul>
+     <li><span class="role">General Assembly</span><span class="company"> WDI — 2013</span></li>
+     <li><span class="role">Queens College</span><span class="company"> - B.A. 1923</span></li>
+     <li><span class="role">Brooklyn Etiquette School For Girls</span> <span class="company"> 1920(Honors)</span></li>
+   </ul>
+   </div>
 ```
 
 ### Question #2
