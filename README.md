@@ -27,16 +27,14 @@ What is the purpose of the `alt` attribute? e.g:
 <img src='https://jesse.sh/img/me.jpg' alt='Jesse Shawl'/>
 ```
 
-```text
-Your answer here.
+```The 'alt' attribute provides "alternate text" to accompany a photo. This can be read by the user if, for example, the photo is unable to load or the user is vision impaired and unable to see the image. The text explains the image and the 'alt' is necessary to include, especially if there are no captions with the photo.  
 ```
 
 ### Question #3
 
 What is the purpose of the `<head></head>` tag in HTML?
 
-```text
-Your answer here.
+```The data included in the 'head' tag is not displayed on the page. It may include a title that appears on the browser tab, links to other pages on the site as well as to css or js code.
 ```
 
 ## CSS
