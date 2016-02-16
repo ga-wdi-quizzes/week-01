@@ -95,7 +95,7 @@ Which of the following represents a correct workflow for submitting a PR on a no
 
 Select 1:
 ```
-[] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
+[X] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] fork on github; git clone <ga_dc_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] git clone <ga_dc_url>; git branch <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git pull; create pull request
@@ -107,6 +107,7 @@ What is the difference between a fork and a clone?
 
 ```text
 Your answer here.
+A fork is a remote copy of repository while clone is a local copy of a repository.
 ```
 
 ### Question 9
@@ -115,4 +116,5 @@ How is `git pull` related to `git fetch`?
 
 ```text
 Your answer here.
+"git pull" perform "git fetch" function(fetches changes from a remote repo) but goes a step further by merging the information with the local branch
 ```
