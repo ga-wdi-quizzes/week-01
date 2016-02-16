@@ -17,6 +17,10 @@ What does it mean for an HTML tag to be "semantic"? Give an example of a short s
 
 ```text
 Your answer here.
+For an HTML tag to be semantic it must reinforce the meaning of the information rather than define the look.
+Example:
+```<section> </section> -semantic```
+```<center> </center> -non-semantic```
 ```
 
 ### Question #2
@@ -29,6 +33,7 @@ What is the purpose of the `alt` attribute? e.g:
 
 ```text
 Your answer here.
+"alt" provides alternative information(usually) about the image. It can be read by screen reader to enhanced the experience of a visually impaired person.
 ```
 
 ### Question #3
@@ -37,6 +42,7 @@ What is the purpose of the `<head></head>` tag in HTML?
 
 ```text
 Your answer here.
+It contains all the metadata about the page. It also contains links to other applications that may be needed for the page to be responsive like CSS and javascript.
 ```
 
 ## CSS
