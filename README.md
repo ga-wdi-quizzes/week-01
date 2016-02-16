@@ -1,3 +1,9 @@
+```
+completeness 5 out of 5
+comfort level 4 out of 5
+
+
+
 # Week 01
 
 ## Instructions
@@ -15,7 +21,7 @@ the square brackets (for multiple-choice questions).
 
 What does it mean for an HTML tag to be "semantic"? Give an example of a short snippet of HTML written using semantic tags and non-semantic tags.
 
-```text
+```
 A semantic tag is when the tag clearly defines the content that will be in the tag. It is descriptive so you know that an <img> tag will be an image and a <table> tag will be a table.   Unlike,  non-semantic tags that is ambiguous and doesn't tell you what the content will be. For example, a <div> tag doesn't tell you what it contains.
 
 snippet:
@@ -36,7 +42,7 @@ What is the purpose of the `alt` attribute? e.g:
 <img src='https://jesse.sh/img/me.jpg' alt='Jesse Shawl'/>
 ```
 
-```text
+```
 The alt attribute stands for alternative text. It supplies text describing the image. For example, the image of https://jesse.sh/img/me.jpg is of Jesse Shawl.
 The alt attribute is used for a couple of reasons:
 1-If the image does not show (due to many possible reasons like link breaks, there is a slow connection or is not supported by the browser) the alt attribute will let the user see what the image was supposed to be.
@@ -49,7 +55,7 @@ The alt attribute is used for a couple of reasons:
 
 What is the purpose of the `<head></head>` tag in HTML?
 
-```text
+```
 The <head> tag in HTML is a container on the top of an HTML page that is not visible to the web users. You can includes metadata, the title of the page, stylesheet and more.
 
 ```
@@ -64,7 +70,7 @@ The choices are `border`, `outline`, `padding`, and `margin`. You will leave two
 
 Your Answer:
 
-```text
+```
 'margin': Defines the distance between an element's border and adjacent elements' borders.
 'border'': Inserts a "wall" around an element.
 'padding': Defines the distance between an element's content and its border.
@@ -89,7 +95,7 @@ Select 1:
 
 Identify the three places CSS can go, and rank them in terms of specificity:
 
-```text
+```
 1. CSS stylesheet
 2. Within the head of each html page with a <style> tag.
 3. Inline , for example, within a paragraph tag <p> style="font-size: 12px;"></p>
@@ -114,7 +120,7 @@ Select 1:
 
 What is the difference between a fork and a clone?
 
-```text
+```
 To fork a repository is to basically clone the repository under your name. You are able to make changes but it will not affect the original repository unless the owner of the original repository accepts the pull request and merges them. By forking you are still associated to the upstream repository.
 
 A clone is a copy of the repo that lives locally on your computer
@@ -126,7 +132,7 @@ The difference is the that the fork lives online and the clone is on your local 
 
 How is `git pull` related to `git fetch`?
 
-```text
+```
 git fetch only pulls new changes and items that are not on the local device. git pull fetches and merges changes into the current branch.
 
 ```
