@@ -1,0 +1,112 @@
+HTML - Brittany Branson's Answers
+
+Question #1
+
+What does it mean for an HTML tag to be "semantic"? Give an example of a short snippet of HTML written using semantic tags and non-semantic tags.
+
+//Semantics is the meaning of a word beyond it's dictionary definition.
+Regarding HTML, semantic tags tell both the developer and browser what it and it's contents mean or contains, rather than just how it is presented or stylized.
+For example, <h1> tag is semantic, in that a developer and browser will immediately understand what kind of information the <h1> tag will contain and present.
+The <p> tag is both semantic and presentational, because browsers and developers not only understand what information will be contained within the <p> tag, but a browser generally understands how to present the tag (even without more specific styling).
+The <i> tag is not semantic, for it is a style. Simply seeing the <i> tag will not tell a developer or browser any more information other than that information will be italicized.
+Furthermore, it is not semantic because even italicized words could have different meanings (i.e. a book title vs. emphasis).
+
+Question #2
+
+What is the purpose of the alt attribute? e.g:
+
+<img src='https://jesse.sh/img/me.jpg' alt='Jesse Shawl'/>
+
+//Alt tags are useful for both developers and users. For developers, the alt attribute aids him/her as he/she reads/visualizes code, for it gives an image a title and will display that title even if the image fails to load in the browser.
+It is especially useful for users with disabilities such as blindness. Certain text readers and other tools will say the alt attribute out loud, permitting a user with a disability to understand that an image is located on the page.
+
+Question #3
+
+What is the purpose of the <head></head> tag in HTML?
+
+In general, everything that will not be seen by the user is placed in the <head> tag.
+To be more specific, the <head> tag collects meta data and other information about the document.
+It is where a developer will place definitions of links and stylesheets (CSS, JS) essential to the functionality and display of the document.
+It is also essential to SEO, for a developer could place keywords and other useful SEO tags/content/definitions within the <head> element.
+
+CSS
+
+Question #4
+
+In the spaces below, write the CSS property that best matches the given description.
+
+The choices are border, outline, padding, and margin. You will leave two spaces blank.
+
+Your Answer:
+
+MARGIN: Defines the distance between an element's border and adjacent elements' borders.
+BORDER: Inserts a "wall" around an element.
+PADDING: Defines the distance between an element's content and its border.
+___: Defines the width of an element.
+OUTLINE: Overlays a "wall" on top of an element.
+___: Defines the distance between the center of an element and the center of the adjacent element.
+
+Question #5
+
+What does the following selector do? ul.dropdown > li?
+
+Select 1:
+
+[X] Selects all li's which are directly inside a ul of class dropdown (children)
+[] Selects all li's which are anywhere inside a ul of class dropdown (any descendant)
+[] Selects all ul's of class dropdown, as well as the children elements that are li's
+[] Selects all ul's of class dropdown, only if their children are exclusively li's
+Question #6
+
+Identify the three places CSS can go, and rank them in terms of specificity:
+
+1. linked stylesheet
+2. Embed CSS on tags themselves
+3. Create a CSS block in web page (typically between <head> tags)
+
+
+A stylesheet is recommended, for it is clean, and makes reading HTML much easier.
+Embedding CSS on to the tags themselves is specific regarding that particular tag,
+but it will make the HTML look quite messy. Also, it may become repetitive
+should a developer want to style a container, but as well as any elements within
+that container.
+Creating a CSS block within the web page is very broad.
+
+
+Git
+
+Question #7
+
+Which of the following represents a correct workflow for submitting a PR on a non-master branch? (ignore the lack of commit messages)
+
+Select 1:
+
+X fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
+[] fork on github; git clone <ga_dc_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
+[] git clone <ga_dc_url>; git branch <charlie_solution>; git add <files>; git commit; git push; create pull request
+[] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git pull; create pull request
+
+Question 8
+
+What is the difference between a fork and a clone?
+//A clone is a copy of a remote repository that will live as a local repository. If any changes are made to the clone,
+no one will see them until they are pushed up to the original repository. Forking a repository allows a
+developer to make changes without affecting the original source code. It makes a local copy in one's own git repository
+account. When changes are made, that developer may send a 'pull request' to ask if the original developer will accept
+the code.
+
+Your answer here.
+Question 9
+
+How is git pull related to git fetch?
+
+//'git fetch' brings one's local copy of a remote repository up to date.
+This command is important because a developer may make changes to the original, remote repository
+that may be critical to the success/functionality of one's local copy. But, this command
+does not yet alter any of one's own local branches.
+'git pull' brings changes in the remote repository into the the code/local branches and merges any changes that may have been made
+in the remote repository. 'git pull' actually performs a 'git fetch' before merging any remote changes that
+may have been made.
+
+
+Your answer here.
