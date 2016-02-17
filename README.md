@@ -4,8 +4,8 @@
 
 1. Fork this repo
 2. Clone your fork
-3. Fill in your answers by writing in the appropriate area, or placing an 'x' in
-the square brackets (for multiple-choice questions).
+3. Fill in your answers by placing an 'x' in
+the square brackets (for multiple-choice questions), or by replacing "Your answer here" with your answer.  Note: do not remove the formatting directives (e.g. ````text`), just replace the placeholder, "Your answer here".
 4. Add/Commit/Push your changes to Github.
 5. Open a pull request.
 
