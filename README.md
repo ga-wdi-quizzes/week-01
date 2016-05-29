@@ -148,12 +148,35 @@ Identify the three places CSS can go, and rank them in terms of specificity:
 Which of the following represents a correct workflow for submitting a PR on a non-master branch?
 (ignore the lack of commit messages)
 
-Select 1:
+Select one:
 ```
-[] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
-[] fork on github; git clone <ga_dc_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
-[] git clone <ga_dc_url>; git branch <charlie_solution>; git add <files>; git commit; git push; create pull request
-[] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git pull; create pull request
+[X] fork on github;
+    git clone <fork_url>;
+    git checkout -b <charlie_solution>;
+    git add <files>;
+    git commit;
+    git push;
+    create pull request
+[ ] fork on github;
+    git clone <ga_dc_url>;  # WRONG
+    git checkout -b <charlie_solution>;
+    git add <files>;
+    git commit;
+    git push;
+    create pull request
+[ ] git clone <ga_dc_url>;  # WRONG
+    git branch <charlie_solution>;
+    git add <files>;
+    git commit;
+    git push;
+    create pull request
+[ ] fork on github;
+    git clone <fork_url>;
+    git checkout -b <charlie_solution>;
+    git add <files>;
+    git commit;
+    git pull;  # WRONG
+    create pull request
 ```
 
 ### Question 8
