@@ -111,7 +111,7 @@ ___:     Defines the distance between the center of an element and the center of
 
 #### CSS `outline` property (as opposed to `border`)
 
-- It won't effect the position of the element or adjacent elements
+- It won't effect the position of the element or adjacent elements.
 - It is not a part of the element's dimensions.
 - It always goes around all the sides, you can't specify particular sides.
 - It doesn't respect border-radius.
@@ -125,12 +125,12 @@ ___:     Defines the distance between the center of an element and the center of
 
 What does the following selector do?  `ul.dropdown > li`?
 
-Select 1:
+Select one:
 ```
-[] Selects all li's which are directly inside a ul of class dropdown (children)
-[] Selects all li's which are anywhere inside a ul of class dropdown (any descendant)
-[] Selects all ul's of class dropdown, as well as the children elements that are li's
-[] Selects all ul's of class dropdown, only if their children are exclusively li's
+[X] Selects all li's which are directly inside a ul of class dropdown (children)
+[ ] Selects all li's which are anywhere inside a ul of class dropdown (any descendant)
+[ ] Selects all ul's of class dropdown, as well as the children elements that are li's
+[ ] Selects all ul's of class dropdown, only if their children are exclusively li's
 ```
 
 ### Question #6
