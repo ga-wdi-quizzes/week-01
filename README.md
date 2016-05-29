@@ -45,7 +45,7 @@ Examples of non-semantic tags:
 <span>This is just a span without any semantic value.</span>
 ```
 
-[http://www.w3schools.com/html/html5_semantic_elements.asp](http://www.w3schools.com/html/html5_semantic_elements.asp)
+- [http://www.w3schools.com/html/html5_semantic_elements.asp](http://www.w3schools.com/html/html5_semantic_elements.asp)
 
 
 ### Question #2
@@ -109,16 +109,15 @@ outline: Overlays a "wall" on top of an element.
 ___:     Defines the distance between the center of an element and the center of the adjacent element.
 ```
 
-#### CSS `outline` property (as opposed to `border`)
+CSS `outline` property (as opposed to `border`)
 
 - It won't effect the position of the element or adjacent elements.
 - It is not a part of the element's dimensions.
 - It always goes around all the sides, you can't specify particular sides.
 - It doesn't respect border-radius.
 - It supports offset with the property `outline-offset`.
-
-[https://css-tricks.com/almanac/properties/o/outline/](https://css-tricks.com/almanac/properties/o/outline/)
-[http://stackoverflow.com/questions/1158515/difference-between-outline-and-border](http://stackoverflow.com/questions/1158515/difference-between-outline-and-border)
+- [https://css-tricks.com/almanac/properties/o/outline/](https://css-tricks.com/almanac/properties/o/outline/)
+- [http://stackoverflow.com/questions/1158515/difference-between-outline-and-border](http://stackoverflow.com/questions/1158515/difference-between-outline-and-border)
 
 
 ### Question #5
@@ -190,15 +189,14 @@ What is the difference between a fork and a clone?
 - It clones a repository into a newly created directory.
 - It creates remote-tracking branches for each branch in the cloned repository (visible using `git branch -r`).
 - It creates and checks out an initial branch that is forked from **the cloned repository’s currently active branch**.
-
-[https://git-scm.com/docs/git-clone](https://git-scm.com/docs/git-clone)
+- [https://git-scm.com/docs/git-clone](https://git-scm.com/docs/git-clone)
 
 ##### `git fork`
+
 - It only allows `clone` on the server side.
 - Most commonly, forks are used to either:
   + **propose changes to someone else's project** or
   + **use someone else's project as a starting point for your own idea**
-
 - [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
 - [http://stackoverflow.com/a/6286877/3837223](http://stackoverflow.com/a/6286877/3837223)
 
@@ -206,8 +204,17 @@ What is the difference between a fork and a clone?
 
 How is `git pull` related to `git fetch`?
 
-```text
-Your answer here.
-```
+#### Answer
 
-[http://stackoverflow.com/a/6286877/3837223](http://stackoverflow.com/a/6286877/3837223)
+`git pull`
+
+- `git pull` is shorthand for `git fetch` followed by `git merge FETCH_HEAD`.
+- [https://git-scm.com/docs/git-pull](https://git-scm.com/docs/git-pull)
+
+`git fetch`
+
+- `git fetch` imports commits from a remote repository into your local repo.
+- The resulting commits are stored as remote branches instead of the normal local branches that we’ve been working with.
+- This gives you a chance to review changes before integrating them into your copy of the project.
+- [https://www.atlassian.com/git/tutorials/syncing/git-remote](https://www.atlassian.com/git/tutorials/syncing)
+- [http://stackoverflow.com/questions/292357/what-are-the-differences-between-git-pull-and-git-fetch](http://stackoverflow.com/questions/292357/what-are-the-differences-between-git-pull-and-git-fetch)
