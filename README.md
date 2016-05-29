@@ -15,9 +15,39 @@ the square brackets (for multiple-choice questions).
 
 What does it mean for an HTML tag to be "semantic"? Give an example of a short snippet of HTML written using semantic tags and non-semantic tags.
 
-```text
-Your answer here.
+#### Answer
+
+A semantic HTML tag describes its meaning in a webpage; on the other hand, a non-semantic HTML tag merely defines how it looks.
+
+Examples of semantic tags:
+
+```html
+<header>
+  Masatoshi's blog
+</header>
+<main>
+  <section>
+    This is an awesome section.
+  </section>
+</main>
+<aside>
+  This can be a sidebar.
+</aside>
+<footer>
+  Copyright 2016 Masatoshi
+</footer>
 ```
+
+Examples of non-semantic tags:
+
+```html
+<div>Kono <i>tagu</i> wa <b>nan no imi mo motanai</b></div>
+<span>This is just a span without any semantic value.</span>
+```
+
+#### Reference
+- [http://www.w3schools.com/html/html5_semantic_elements.asp](http://www.w3schools.com/html/html5_semantic_elements.asp)
+
 
 ### Question #2
 
