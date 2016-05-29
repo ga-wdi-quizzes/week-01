@@ -57,9 +57,13 @@ What is the purpose of the `alt` attribute? e.g:
 <img src='https://jesse.sh/img/me.jpg' alt='Jesse Shawl'/>
 ```
 
-```text
-Your answer here.
-```
+#### Answer
+
+The alt attribute provides alternative information for an image in case that a user for some reason cannot view it.
+
+Also it is used by screen readers, which visually impaired people use to hear what is on the image.
+
+For example, if internet connection is slow and the image has not been loaded, the alternative text "Jesse Shawl" will be displayed instead. If the user uses a screen reader, the screen reader will read aloud the alternative text.
 
 ### Question #3
 
