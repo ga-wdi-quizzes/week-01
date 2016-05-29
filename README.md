@@ -137,11 +137,9 @@ Select one:
 
 Identify the three places CSS can go, and rank them in terms of specificity:
 
-```text
-1.
-2.
-3.
-```
+1. The `style` attribute of a HTML element (Inline CSS)
+2. The `<style>` element within the HTML document (Internal CSS)
+3. An external stylesheet that is linked to by a `<link>` element within the HTML document  (External CSS)
 
 ## Git
 
