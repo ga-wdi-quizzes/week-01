@@ -69,8 +69,23 @@ For example, if internet connection is slow and the image has not been loaded, t
 
 What is the purpose of the `<head></head>` tag in HTML?
 
-```text
-Your answer here.
+#### Answer
+
+The `<head>` element is a container for metadata.
+
+HTML metadata is *data about the HTML document*, which is not displayed in the webpage.
+
+Metadata typically defines:
+- document title
+- styles
+- links
+- scripts
+- other meta information
+
+The tags that describe metadata:
+
+```
+<title>, <style>, <meta>, <link>, <script> and <base>
 ```
 
 ## CSS
