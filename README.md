@@ -183,9 +183,24 @@ Select one:
 
 What is the difference between a fork and a clone?
 
-```text
-Your answer here.
-```
+#### Answer
+
+##### `git clone`
+
+- It clones a repository into a newly created directory.
+- It creates remote-tracking branches for each branch in the cloned repository (visible using `git branch -r`).
+- It creates and checks out an initial branch that is forked from **the cloned repository’s currently active branch**.
+
+[https://git-scm.com/docs/git-clone](https://git-scm.com/docs/git-clone)
+
+##### `git fork`
+- It only allows `clone` on the server side.
+- Most commonly, forks are used to either:
+  + **propose changes to someone else's project** or
+  + **use someone else's project as a starting point for your own idea**
+
+- [https://help.github.com/articles/fork-a-repo/](https://help.github.com/articles/fork-a-repo/)
+- [http://stackoverflow.com/a/6286877/3837223](http://stackoverflow.com/a/6286877/3837223)
 
 ### Question 9
 
@@ -194,3 +209,5 @@ How is `git pull` related to `git fetch`?
 ```text
 Your answer here.
 ```
+
+[http://stackoverflow.com/a/6286877/3837223](http://stackoverflow.com/a/6286877/3837223)
