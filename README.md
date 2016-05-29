@@ -45,8 +45,7 @@ Examples of non-semantic tags:
 <span>This is just a span without any semantic value.</span>
 ```
 
-#### Reference
-- [http://www.w3schools.com/html/html5_semantic_elements.asp](http://www.w3schools.com/html/html5_semantic_elements.asp)
+[http://www.w3schools.com/html/html5_semantic_elements.asp](http://www.w3schools.com/html/html5_semantic_elements.asp)
 
 
 ### Question #2
@@ -88,6 +87,9 @@ The tags that describe metadata:
 <title>, <style>, <meta>, <link>, <script> and <base>
 ```
 
+[http://www.w3schools.com/html/html_head.asp](http://www.w3schools.com/html/html_head.asp)
+
+
 ## CSS
 
 ### Question #4
@@ -96,16 +98,28 @@ In the spaces below, write the CSS property that best matches the given descript
 
 The choices are `border`, `outline`, `padding`, and `margin`. You will leave two spaces blank.
 
-Your Answer:
+#### Answer:
 
-```text
-___: Defines the distance between an element's border and adjacent elements' borders.
-___: Inserts a "wall" around an element.
-___: Defines the distance between an element's content and its border.
-___: Defines the width of an element.
-___: Overlays a "wall" on top of an element.
-___: Defines the distance between the center of an element and the center of the adjacent element.
+```yml
+margin:  Defines the distance between an element's border and adjacent elements' borders.
+border:  Inserts a "wall" around an element.
+padding: Defines the distance between an element's content and its border.
+___:     Defines the width of an element.
+outline: Overlays a "wall" on top of an element.
+___:     Defines the distance between the center of an element and the center of the adjacent element.
 ```
+
+#### CSS `outline` property (as opposed to `border`)
+
+- It won't effect the position of the element or adjacent elements
+- It is not a part of the element's dimensions.
+- It always goes around all the sides, you can't specify particular sides.
+- It doesn't respect border-radius.
+- It supports offset with the property `outline-offset`.
+
+[https://css-tricks.com/almanac/properties/o/outline/](https://css-tricks.com/almanac/properties/o/outline/)
+[http://stackoverflow.com/questions/1158515/difference-between-outline-and-border](http://stackoverflow.com/questions/1158515/difference-between-outline-and-border)
+
 
 ### Question #5
 
