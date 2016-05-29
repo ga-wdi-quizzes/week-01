@@ -117,5 +117,5 @@ Clone is to actually download the files on your local host.
 How is `git pull` related to `git fetch`?
 
 ```text
-Your answer here.
+git pull pulls from a remote branch and then git fetch pulls that down to the local repository
 ```
