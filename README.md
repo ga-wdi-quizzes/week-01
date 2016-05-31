@@ -18,7 +18,7 @@ What does it mean for an HTML tag to be "semantic"? Give an example of a short s
 ```text
 Your answer here.
 ```
-
+semantic tag's dictate an element's meaning , where as non-semantic tags are general purpose. For example : the element <head></head> is semantic, because the head element is always the head in an html page, where as the tag <div></div> can be used within any point of an html page, and has no direct correlation to the meaning of an element. 
 ### Question #2
 
 What is the purpose of the `alt` attribute? e.g:
@@ -28,15 +28,15 @@ What is the purpose of the `alt` attribute? e.g:
 ```
 
 ```text
-Your answer here.
+Should your image not work, or be down, it provides context for what should be there. Also for accessibility by the americans with disabilities act. 
+### Question #3
 ```
 
-### Question #3
 
 What is the purpose of the `<head></head>` tag in HTML?
 
 ```text
-Your answer here.
+the <head></head> tag dictates what information is displayed in the top of a webpage. It is not visible within the actual html document, only in the description part at the top of the page. 
 ```
 
 ## CSS
@@ -50,12 +50,12 @@ The choices are `border`, `outline`, `padding`, and `margin`. You will leave two
 Your Answer:
 
 ```text
-___: Defines the distance between an element's border and adjacent elements' borders.
-___: Inserts a "wall" around an element.
-___: Defines the distance between an element's content and its border.
-___: Defines the width of an element.
-___: Overlays a "wall" on top of an element.
-___: Defines the distance between the center of an element and the center of the adjacent element.
+____: Defines the distance between an element's border and adjacent elements' borders.
+outline: Inserts a "wall" around an element.
+padding: Defines the distance between an element's content and its border.
+margin: Defines the width of an element.
+border: Overlays a "wall" on top of an element.
+_____: Defines the distance between the center of an element and the center of the adjacent element.
 ```
 
 ### Question #5
@@ -65,7 +65,7 @@ What does the following selector do?  `ul.dropdown > li`?
 Select 1:
 ```
 [] Selects all li's which are directly inside a ul of class dropdown (children)
-[] Selects all li's which are anywhere inside a ul of class dropdown (any descendant)
+[x] Selects all li's which are anywhere inside a ul of class dropdown (any descendant)
 [] Selects all ul's of class dropdown, as well as the children elements that are li's
 [] Selects all ul's of class dropdown, only if their children are exclusively li's
 ```
@@ -75,9 +75,9 @@ Select 1:
 Identify the three places CSS can go, and rank them in terms of specificity:
 
 ```text
-1.
-2.
-3.
+1.external style sheet
+2.internal style sheet
+3.inline style sheet
 ```
 
 ## Git
@@ -89,7 +89,7 @@ Which of the following represents a correct workflow for submitting a PR on a no
 
 Select 1:
 ```
-[] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
+[x] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] fork on github; git clone <ga_dc_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] git clone <ga_dc_url>; git branch <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git pull; create pull request
@@ -100,7 +100,7 @@ Select 1:
 What is the difference between a fork and a clone?
 
 ```text
-Your answer here.
+a fork copy's data from one git hub repository to another git hub repository (exclusively on git hub), a clone copy's data from a git hub repo to a local repo.
 ```
 
 ### Question 9
@@ -108,5 +108,4 @@ Your answer here.
 How is `git pull` related to `git fetch`?
 
 ```text
-Your answer here.
-```
+a git pull is like a git fetch and a git merge in one command.```
