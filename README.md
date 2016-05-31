@@ -15,8 +15,11 @@ the square brackets (for multiple-choice questions).
 
 What does it mean for an HTML tag to be "semantic"? Give an example of a short snippet of HTML written using semantic tags and non-semantic tags.
 
-```text
-Your answer here.
+```
+A semantic tag provides information about its content. For instance,
+
+<p>This is a paragraph tag, so the browser and the developer (or at least can assume) the contents is a paragraph.</p>
+<div>This, though, is a div tag. While its contents is effectively a paragraph,
 ```
 
 ### Question #2
@@ -27,16 +30,16 @@ What is the purpose of the `alt` attribute? e.g:
 <img src='https://jesse.sh/img/me.jpg' alt='Jesse Shawl'/>
 ```
 
-```text
-Your answer here.
+```
+To provide text to be displayed in text-only browsers, such as those for the blind, or when the image cannot be downloaded due to an error in the src attribute or a slow connection. It does not provide the hovertext/tooltip; that comes from the title attribute. (I thought it did, and was slightly surprised it did not.)
 ```
 
 ### Question #3
 
 What is the purpose of the `<head></head>` tag in HTML?
 
-```text
-Your answer here.
+```
+It contains information about the document. Important examples include title, a link to a style sheet, and style information for that file.
 ```
 
 ## CSS
@@ -50,10 +53,10 @@ The choices are `border`, `outline`, `padding`, and `margin`. You will leave two
 Your Answer:
 
 ```text
-___: Defines the distance between an element's border and adjacent elements' borders.
-___: Inserts a "wall" around an element.
-___: Defines the distance between an element's content and its border.
-___: Defines the width of an element.
+margin: Defines the distance between an element's border and adjacent elements' borders.
+outline: Inserts a "wall" around an element.
+padding: Defines the distance between an element's content and its border.
+border: Defines the width of an element.
 ___: Overlays a "wall" on top of an element.
 ___: Defines the distance between the center of an element and the center of the adjacent element.
 ```
@@ -74,10 +77,10 @@ Select 1:
 
 Identify the three places CSS can go, and rank them in terms of specificity:
 
-```text
-1.
-2.
-3.
+```
+1. Into a separate file. This is the least specific; it applies to every html file that "calls" it.
+2. Within the header block of an HTML file, in a <style> tag. This is in the middle of specificity, covering everything in that file.
+3. Within a given tag. That is the most specific, applying only to the contents of that tag.
 ```
 
 ## Git
@@ -89,9 +92,11 @@ Which of the following represents a correct workflow for submitting a PR on a no
 
 Select 1:
 ```
+I think it's the third one, since if you're working in a non-master branch, a fork isn't needed.
+
 [] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] fork on github; git clone <ga_dc_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
-[] git clone <ga_dc_url>; git branch <charlie_solution>; git add <files>; git commit; git push; create pull request
+[x] git clone <ga_dc_url>; git branch <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git pull; create pull request
 ```
 
@@ -99,14 +104,20 @@ Select 1:
 
 What is the difference between a fork and a clone?
 
-```text
-Your answer here.
+```
+A fork is not a git "thing"; it's a github "thing". It takes a repository owned by someone else, and copies it to your github account (or an account you contribute to.)
+
+A clone copies a git repository from "somewhere else" (maybe but not necessarily github) and brings it to the local machine.
+
+Perhaps the simplest way to look at it is I might fork a repository on github then clone the fork down to my laptop. Just like I did for this quiz.
 ```
 
 ### Question 9
 
 How is `git pull` related to `git fetch`?
 
-```text
-Your answer here.
+```
+  `git pull` gets the changes, and then merges in the changes as automatically as it can.
+
+  `git fetch` only gets the changes and leaves it to the user to perform the merge.
 ```
