@@ -16,7 +16,10 @@ the square brackets (for multiple-choice questions).
 What does it mean for an HTML tag to be "semantic"? Give an example of a short snippet of HTML written using semantic tags and non-semantic tags.
 
 ```text
-Your answer here.
+Semantic means that the whatever it is has meaning. It is not the style but the actual content.
+
+<p1>Welcome to my page</p1> - This is semantic.
+font-size: 20px; - This is non-semantic
 ```
 
 ### Question #2
@@ -28,7 +31,7 @@ What is the purpose of the `alt` attribute? e.g:
 ```
 
 ```text
-Your answer here.
+This is necessary for when the image doesn't load of for blind people who are using brail computers. It is legally required for all images.
 ```
 
 ### Question #3
@@ -36,7 +39,7 @@ Your answer here.
 What is the purpose of the `<head></head>` tag in HTML?
 
 ```text
-Your answer here.
+This tag provides the overall style data for the document unless otherwise specified later. It is all metadata and not actual content.
 ```
 
 ## CSS
@@ -50,11 +53,11 @@ The choices are `border`, `outline`, `padding`, and `margin`. You will leave two
 Your Answer:
 
 ```text
-___: Defines the distance between an element's border and adjacent elements' borders.
-___: Inserts a "wall" around an element.
-___: Defines the distance between an element's content and its border.
+margin: Defines the distance between an element's border and adjacent elements' borders.
+border: Inserts a "wall" around an element.
+padding: Defines the distance between an element's content and its border.
 ___: Defines the width of an element.
-___: Overlays a "wall" on top of an element.
+outline: Overlays a "wall" on top of an element.
 ___: Defines the distance between the center of an element and the center of the adjacent element.
 ```
 
@@ -64,7 +67,7 @@ What does the following selector do?  `ul.dropdown > li`?
 
 Select 1:
 ```
-[] Selects all li's which are directly inside a ul of class dropdown (children)
+[X] Selects all li's which are directly inside a ul of class dropdown (children)
 [] Selects all li's which are anywhere inside a ul of class dropdown (any descendant)
 [] Selects all ul's of class dropdown, as well as the children elements that are li's
 [] Selects all ul's of class dropdown, only if their children are exclusively li's
@@ -75,9 +78,9 @@ Select 1:
 Identify the three places CSS can go, and rank them in terms of specificity:
 
 ```text
-1.
-2.
-3.
+1. Inline Style - Most specific but worst style to use.
+2. Internal Style - Midrange specific.
+3. External Style - Least specific but best style to use.
 ```
 
 ## Git
@@ -89,7 +92,7 @@ Which of the following represents a correct workflow for submitting a PR on a no
 
 Select 1:
 ```
-[] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
+[X] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] fork on github; git clone <ga_dc_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] git clone <ga_dc_url>; git branch <charlie_solution>; git add <files>; git commit; git push; create pull request
 [] fork on github; git clone <fork_url>; git checkout -b <charlie_solution>; git add <files>; git commit; git pull; create pull request
@@ -100,7 +103,7 @@ Select 1:
 What is the difference between a fork and a clone?
 
 ```text
-Your answer here.
+When you fork a file it creates a fork in your personal github whereas when you just clone it pulls it straight from the source material enabling you not to be able to make a branch.
 ```
 
 ### Question 9
@@ -108,5 +111,5 @@ Your answer here.
 How is `git pull` related to `git fetch`?
 
 ```text
-Your answer here.
+'Git pull' tries to merge any pulled commits for you while 'git fetch' simply gives you the commits to look over without doing that extra step.
 ```
